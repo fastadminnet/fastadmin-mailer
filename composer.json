@@ -1,10 +1,10 @@
 {
-    "name": "txthinking/mailer",
+    "name": "fastadminnet/fastadmin-mailer",
     "type": "library",
     "keywords": ["mail", "smtp"],
     "description": "A very lightweight PHP SMTP mail sender",
     "license": "MIT",
-    "homepage": "http://github.com/txthinking/Mailer",
+    "homepage": "https://github.com/fastadminnet/fastadmin-mailer",
     "authors": [
       {
         "name": "Cloud",
