@@ -477,6 +477,7 @@ class SMTP
         while ($str = fgets($this->smtp, 515)) {
             $this->logger && $this->logger->debug("Got: ". $str);
             $this->resultStack[] = $str;
+            $str = ltrim($str);
             if(substr($str,3,1) == " ") {
                 $code = substr($str,0,3);
                 return $code;
