@@ -213,6 +213,8 @@ class SMTP
                     'verify_peer_name' => false
                 ]
             ]);
+        } else {
+            $context = stream_context_create();
         }
         $this->smtp = stream_socket_client(
             $host.':'.$this->port,
